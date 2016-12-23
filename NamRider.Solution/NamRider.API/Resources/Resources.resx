@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelTransaction" xml:space="preserve">
+    <value>The transaction is cancelled</value>
+  </data>
+  <data name="ExistingDrivingCritism" xml:space="preserve">
+    <value>You already had critism this driving info</value>
+  </data>
+  <data name="ExistingDrivingEval" xml:space="preserve">
+    <value>You already had evaluate this driving info</value>
+  </data>
+  <data name="ExistingParkCritism" xml:space="preserve">
+    <value>You already had critism this park info</value>
+  </data>
+  <data name="ExistingParking" xml:space="preserve">
+    <value>There existing a park with the same latitude longitude</value>
+  </data>
+  <data name="ExistingUserLogin" xml:space="preserve">
+    <value>A user with the same login existing</value>
+  </data>
+  <data name="InvalidDescription" xml:space="preserve">
+    <value>The description is invalid</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>The email address is invalid</value>
+  </data>
+  <data name="InvalidIdDriving" xml:space="preserve">
+    <value>The driving info id is invalid</value>
+  </data>
+  <data name="InvalidIdPark" xml:space="preserve">
+    <value>The parking info id is invalid</value>
+  </data>
+  <data name="InvalidInputModel" xml:space="preserve">
+    <value>The input data model is invalid</value>
+  </data>
+  <data name="InvalidLatitude" xml:space="preserve">
+    <value>The latitude is invalid</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>The login is invalid</value>
+  </data>
+  <data name="InvalidLongitude" xml:space="preserve">
+    <value>The longitude is invalid</value>
+  </data>
+  <data name="InvalidNumberPlace" xml:space="preserve">
+    <value>The number of place is invalid</value>
+  </data>
+  <data name="InvalidPWConfirm" xml:space="preserve">
+    <value>The password and confirmation password do not match.</value>
+  </data>
+  <data name="InvalidRayon" xml:space="preserve">
+    <value>The rayon is invalid</value>
+  </data>
+  <data name="InvalidStreetName" xml:space="preserve">
+    <value>The street name is invalid</value>
+  </data>
+  <data name="InvalidType" xml:space="preserve">
+    <value>The type is invalid</value>
+  </data>
+  <data name="InvalidValueCritism" xml:space="preserve">
+    <value>The value of critism is invalid</value>
+  </data>
+  <data name="InvalidValueEval" xml:space="preserve">
+    <value>The value of evaluation is invalid</value>
+  </data>
+  <data name="InvaliPassword" xml:space="preserve">
+    <value>The {0} must be at least {2} characters long.</value>
+  </data>
+  <data name="OccuredError" xml:space="preserve">
+    <value>A a error occured during operation</value>
+  </data>
+  <data name="RequiredConfirmPW" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredDescription" xml:space="preserve">
+    <value>The description is required </value>
+  </data>
+  <data name="RequiredEmail" xml:space="preserve">
+    <value>The email address is required</value>
+  </data>
+  <data name="RequiredIdDriving" xml:space="preserve">
+    <value>The driving info id is required</value>
+  </data>
+  <data name="RequiredLatitude" xml:space="preserve">
+    <value>The latitude is required</value>
+  </data>
+  <data name="RequiredLongitude" xml:space="preserve">
+    <value>The longitude is required</value>
+  </data>
+  <data name="RequiredRayon" xml:space="preserve">
+    <value>The rayon is required</value>
+  </data>
+  <data name="RequiredStreetName" xml:space="preserve">
+    <value>The street name is required</value>
+  </data>
+  <data name="RequiredType" xml:space="preserve">
+    <value>The type is required</value>
+  </data>
+  <data name="RequiredValueCritism" xml:space="preserve">
+    <value>The value of critism is required</value>
+  </data>
+  <data name="RequiredValueEval" xml:space="preserve">
+    <value>The value of critism is required</value>
+  </data>
+  <data name="Requiredässword" xml:space="preserve">
+    <value>The password is required</value>
+  </data>
+  <data name="ValidOperation" xml:space="preserve">
+    <value>The operation was succesfully</value>
+  </data>
+  <data name="RequiredIdPark" xml:space="preserve">
+    <value>The parking id is required</value>
+  </data>
+  <data name="RequiredReportedDate" xml:space="preserve">
+    <value>The reported Date is required</value>
+  </data>
+  <data name="NoExistingCritismParkP" xml:space="preserve">
+    <value>The critism of park of existing for this user</value>
+  </data>
+  <data name="NoExistingDrivingCritismP" xml:space="preserve">
+    <value>The critism of driving of existing for this user</value>
+  </data>
+  <data name="NoExistingDrivingEval" xml:space="preserve">
+    <value>Not existing</value>
+  </data>
+</root>
