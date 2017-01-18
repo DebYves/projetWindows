@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="NamRiderContext-Web.config Connection String" description="NamRiderContext Connection String used in web.config by the application to access the database." defaultValue="data source=servernamrider.database.windows.net;initial catalog=NamRiderDb;persist security info=True;user id=adminNamrider;password=Namriderpw2016;multipleactiveresultsets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\yves\\Dropbox\\NamRider\\projetWindows\\NamRider\.SolutionFinal\\NamRider\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NamRiderContext']/@connectionString" />
+  </parameter>
+</parameters>
